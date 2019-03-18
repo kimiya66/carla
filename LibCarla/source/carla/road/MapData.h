@@ -71,6 +71,10 @@ namespace road {
       return nullptr;
     }
 
+    auto GetRoadCount() const {
+      return _roads.size();
+    }
+
   private:
 
     friend class MapBuilder;
