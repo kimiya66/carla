@@ -13,7 +13,7 @@ namespace carla {
 namespace road {
 namespace element {
 
-  class RoadElevationInfo;
+  class RoadInfoElevation;
   class RoadGeneralInfo;
   class RoadInfo;
   class RoadInfoLane;
@@ -33,7 +33,7 @@ namespace element {
   class RoadInfoVisitor {
   public:
 
-    virtual void Visit(RoadElevationInfo &) {}
+    virtual void Visit(RoadInfoElevation &) {}
     virtual void Visit(RoadGeneralInfo &) {}
     virtual void Visit(RoadInfoLane &) {}
     virtual void Visit(RoadInfoLaneAccess &) {}
